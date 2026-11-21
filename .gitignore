@@ -1,0 +1,43 @@
+# ==========================================
+# SM Veg Mart - Git Ignore Configuration
+# ==========================================
+
+# 1. Python & Virtual Environments (NEVER COMMIT)
+sm_env/
+venv/
+env/
+.venv/
+ENV/
+sm_veg_mart_backend/sm_veg_mart/sm_env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyd
+*.pyo
+
+# 2. Node & Frontend (NEVER COMMIT)
+node_modules/
+sm_veg_web/node_modules/
+sm_veg_web/dist/
+dist/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 3. Environment & Local Secrets
+.env
+.env.local
+.env.*.local
+local_settings.py
+*.log
+
+# 4. OS & IDE Temporary Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
